@@ -1,0 +1,77 @@
+body{
+	background-color: white;
+	margin: 0;
+	background: url("nightsky.jpeg");
+    background-size: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+}
+
+li{
+    font-family: 'Bungee Inline', cursive;
+}
+
+h1{
+	text-align: center;
+	vertical-align: middle;
+/*	background-color: white;*/
+/*	border-radius: 25px;*/
+	color: white;
+	font-family: 'Bungee Inline', cursive;
+}
+
+table{
+    font-family: 'Bungee Inline', cursive;
+    border: solid;
+    color: white;
+    text-align:center;
+}
+
+#main{
+	position: absolute;
+
+	top: 50%;
+	left: 50%;
+
+	height: 150px;
+	width: 350px;
+	padding: 20px;
+
+	margin: -75px 0 0 -175px;
+}
+
+#topbar{
+    width: 100%;
+    height: 40px;
+    background: #7BAFD4;
+    color: black;
+    margin: 0 auto;
+    font-weight: bold;
+    position: relative;
+}
+
+#topbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    text-align:center;
+    display: table;
+    width: 100%;
+}
+
+#topbar ul li{
+    display: inLine-block;
+    line-height: 40px;
+    display: table-cell;
+}
+
+#topbar ul li a{
+    color:inherit;
+    text-decoration: none;
+}
+
+a: hover{
+	font-size: larger;
+}
